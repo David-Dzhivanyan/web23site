@@ -12,10 +12,10 @@
 
 .main-slider__slide {
   height: auto;
-  width: 36%;
+  width: 40%;
 
   @include media-breakpoint-up(md) {
-    width: 18%;
+    width: 20%
   }
 }
 
@@ -30,10 +30,10 @@
 }
 
 .main-slider__slide_big {
-  width: 60%;
+  width: calc(60% - 30px);
 
   @include media-breakpoint-up(md) {
-    width: 40%;
+    width: calc(40% - 90px);
   }
 }
 

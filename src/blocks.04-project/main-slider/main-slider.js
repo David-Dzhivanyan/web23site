@@ -18,18 +18,15 @@ class MainSlider {
       modules: [Autoplay, FreeMode],
       slidesPerView: "auto",
       spaceBetween: 15,
-      speed: 3000,
-      loop: true,
-
+      speed: 2500,
+      // loop: true,
+      freeMode: true,
       autoplay: {
         delay: 1,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
         pauseOnMouseEnter: true,
       },
       breakpoints: {
-        768: {
-          spaceBetween: 20,
-        },
         1240: {
           spaceBetween: 30,
         }
