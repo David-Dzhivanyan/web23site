@@ -1,6 +1,6 @@
 module.exports = {
   block: 'page',
-  title: 'Пустая',
+  title: 'Solana Sneakers',
   content: [
     require('./../blocks.01-base/header/header.tmpl-specs/base.bemjson'),
     {block: 'main', content: [
