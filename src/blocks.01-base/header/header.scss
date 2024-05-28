@@ -1,0 +1,32 @@
+.header {
+  background-color: #121212;
+  height: 120px;
+
+  .container-xxl {
+    height: 100%;
+  }
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  height: 100%;
+
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.header__nav {
+  .a:not(:last-child) {
+    margin-right: 20px;
+
+    @include media-breakpoint-up(lg) {
+      margin-right: 50px;
+    }
+  }
+}

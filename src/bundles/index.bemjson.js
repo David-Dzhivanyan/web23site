@@ -4,12 +4,10 @@ module.exports = {
   content: [
     require('./../blocks.01-base/header/header.tmpl-specs/base.bemjson'),
     {block: 'main', content: [
-        {elem: 'section', content: 'Слайдер'},
-        {elem: 'section', content: [
-          'забег, ', 'дайджест'
+        {cls: 'mt-50 mb-60', content: [
+            require('../blocks.04-project/main-block/main-block.tmpl-specs/base.bemjson'),
           ]},
-        {elem: 'section', content: 'все события'},
       ]},
-    require('./../blocks.01-base/footer/footer.tmpl-specs/base.bemjson'),
+    require('../blocks.04-project/main-slider/main-slider.tmpl-specs/base.bemjson'),
     ],
 };
