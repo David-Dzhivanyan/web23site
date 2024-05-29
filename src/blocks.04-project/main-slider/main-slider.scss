@@ -30,7 +30,7 @@
 }
 
 .main-slider__slide_big {
-  width: calc(60% - 30px);
+  width: 100%;
 
   @include media-breakpoint-up(md) {
     width: calc(40% - 90px);
@@ -38,7 +38,7 @@
 }
 
 .main-slider__img {
-  border-radius: 26px;
+  border-radius: 16px;
   overflow: hidden;
   height: 100%;
 
