@@ -26,15 +26,25 @@ module.exports = [
             ]},
           {elem: 'slide', mods: {double: true}, cls: 'swiper-slide', content: [
               {elem: 'img', content: [
-                  {block: 'img', src: './images/main-slider/slide1.jpg'},
+                  {block: 'img', src: './images/main-slider/slide8.jpg'},
                 ]},
               {elem: 'img', content: [
-                  {block: 'img', src: './images/main-slider/slide2.jpg'},
+                  {block: 'img', src: './images/main-slider/slide10.jpg'},
                 ]},
+            ]},
+          {elem: 'slide', cls: 'swiper-slide', content: [
+              {elem: 'img', content: [
+                  {block: 'img', src: './images/main-slider/slide7.jpg'}
+                ]}
             ]},
           {elem: 'slide', mods: {big: true}, cls: 'swiper-slide', content: [
               {elem: 'img', content: [
                   {block: 'img', src: './images/main-slider/slide4.jpg'}
+                ]}
+            ]},
+          {elem: 'slide', cls: 'swiper-slide', content: [
+              {elem: 'img', content: [
+                  {block: 'img', src: './images/main-slider/slide9.jpg'}
                 ]}
             ]},
         ]}

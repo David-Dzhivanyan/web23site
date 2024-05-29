@@ -19,11 +19,10 @@ class MainSlider {
       slidesPerView: "auto",
       spaceBetween: 15,
       speed: 2500,
-      // loop: true,
       freeMode: true,
+
       autoplay: {
         delay: 1,
-        disableOnInteraction: true,
         pauseOnMouseEnter: true,
       },
       breakpoints: {
